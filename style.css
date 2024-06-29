@@ -1,22 +1,24 @@
 body {
-    background-color: cadetblue;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-header {
-    text-align: center;
-    font-size: 32px;
-    color: #ffffff;
-
+    background-color: cadetblue;
 }
 
 section {
     text-align: center;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 400px;
     margin: auto;
     background-color: #fff;
     margin-top: 75px;
+    box-shadow: 0px 10px 36px 16px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 500;
 }
 
 .game-container {
@@ -26,11 +28,10 @@ section {
     margin: 120px;
     margin-bottom: 10px;
     margin-top: 10px;
-    padding-top: 25px;
+    padding-top: 40px;
 }
 
 .cell {
-    font-family: Arial, Helvetica, sans-serif;
     width: 50px;
     height: 50px;
     box-shadow: 0 0 0 1px #333333;
@@ -40,24 +41,30 @@ section {
     font-size: 20px;
 }
 
-.buttons {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-}
-
 button {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     height: 30px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
-    color: #ffffff;
-    background-color: #000;
-    padding: 5px;
+    color: #000000;
 }
 
-button:hover {
-    transition: 0.25s;
-    background-color: cadetblue;
+.start-btn:hover {
+    background-color: green;
+    color: #ffffff;
+    transition: 1s;
+}
+
+.restart-btn:hover {
+    background-color: red;
+    color: #fff;
+    transition: 1s;
+}
+
+.players {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
