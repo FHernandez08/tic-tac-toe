@@ -1,4 +1,6 @@
 const statusDisplay = document.querySelector(".game-status");
+const playerOne = document.querySelector('.player-one');
+const playerTwo = document.querySelector('player-two');
 
 let gameActive = true;
 

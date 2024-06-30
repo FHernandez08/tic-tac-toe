@@ -63,8 +63,9 @@ button {
 
 .players {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
     justify-content: center;
     align-items: center;
+    padding-top: 10px;
 }
