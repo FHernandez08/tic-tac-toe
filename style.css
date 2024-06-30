@@ -69,3 +69,11 @@ button {
     align-items: center;
     padding-top: 10px;
 }
+
+.players input {
+    border: none;
+    background-color: salmon;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
